@@ -3,3 +3,6 @@ ISPRS/gt/**
 ISPRS/top/**
 ISPRS/Vaihingen_dsm_tiles_geoinfo/**
 *.npy
+*.h5
+*.ipynb_checkpoints/
+*.png
