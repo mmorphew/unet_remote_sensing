@@ -1,0 +1,1 @@
+Place data from the ISPRS in this folder. You will need the "dsm", "gt", "top"
