@@ -1,6 +1,11 @@
 # UNet_Remote_Sensing
- A project designed to demonstrate applying semantic segmentation to remote sensing data
+A project designed to demonstrate applying semantic segmentation to remote sensing data
 
 This was a fun project I did during my last year of undergraduate, as part of an extension to my remote sensing class. It effectively acted as an independent study and allowed me to apply concepts from a prior internship to another form of geophysical data. It's also a great example of one of the many ways that geophysical data and machine learning can mesh.
 
-The data that this repository uses cannot be distributed to third parties, so I kindly ask that you request it from the ISPRS here: http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html. The form appears to be automated, so by filling it out, you should automatically receive a download link. Be sure to check your spam folder. Request the 2D segmentation data (Vaihingen). Download the zip files containing the data and entire ground truth, unzip as necessary and place the subfolders into the repo folder titled "ISPRS". The subfolders should be titled "dsm", "gt", and "top". ISPRS provides some other data as well, but these three items are what we need.
+The ISPRS has graciously allowed me to host their data, and I cannot be more thankful to them. While most of the code here is my own, all images, labels, and geodata are property of the ISPRS. The 2D Vaihingen data, as well as other datasets, can be requested here if you wish to obtain the data directly from the source: http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html.
+
+# Dependencies
+A binder link is included for your benefit, such that you may run the code in your browser without having to worry about Python versions and required modules.
+
+If you wish to run locally, you will need Python 3 (3.8 preferrably), all Anaconda base modules, as well as Tensorflow 2.0+, opencv-python, and tifffile.
