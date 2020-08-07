@@ -9,5 +9,5 @@ dependencies:
   - scikit-learn
   - scikit-image
   - tifffile
-  - python3-opencv
+  - opencv
   - tensorflow
