@@ -3,3 +3,4 @@ ISPRS/Vaihingen_dsm_tiles_geoinfo/**
 *.h5
 *.ipynb_checkpoints/
 *.png
+*~
