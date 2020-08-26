@@ -5,6 +5,8 @@ A project designed to demonstrate applying semantic segmentation to remote sensi
 
 This was a fun project I did during my last year of undergraduate, as part of an extension to my remote sensing class. It effectively acted as an independent study and allowed me to apply concepts from a prior internship to another form of geophysical data. It's also a great example of one of the many ways that geophysical data and machine learning can mesh.
 
+Run "TIFF_to_NumPy.ipynb" to preprocess the data first, then run "Urban_Remote_Sensing_Unet.ipynb" to kick off the deep learning training.
+
 The ISPRS has graciously allowed me to host their data, and I cannot be more thankful to them. While most of the code here is my own, all images, labels, and geodata are property of the ISPRS. The 2D Vaihingen data, as well as other datasets, can be requested here if you wish to obtain the data directly from the source: http://www2.isprs.org/commissions/comm3/wg4/data-request-form2.html.
 
 # Dependencies
